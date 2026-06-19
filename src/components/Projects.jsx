@@ -6,24 +6,6 @@ import taskManager from "../assets/TaskManager.png";
 import vidNotesAI from "../assets/VidNotesAI.png";
 const projects = [
   {
-    title: "To-do List ",
-    description:
-      "Built a JavaScript-based Todo List app with local storage support, allowing users to add, complete, and manage tasks efficiently.",
-    image: toDoList,
-    tech: ["HTML","CSS","JavaScript","localStorage"],
-    live: "https://my-td-lists.netlify.app/",
-    github: "https://github.com/chetana-sen369/DOM_Projects/tree/main/TO_DO_LIST",
-  },
-  {
-    title: "Github Users Explorer",
-    description:
-      "Built a React-based GitHub user explorer that fetches and displays real-time profile data using GitHub API with direct profile navigation.",
-    image: githubUsers,
-    tech: ["JavaScript","React.js"],
-    live: "https://github-users-website.netlify.app/",
-    github: "https://github.com/chetana-sen369/github-users",
-  },
-  {
     title: "Pingup",
     description:
       "Built a full-stack social media platform with real-time messaging, posts, and stories using MERN stack, Clerk authentication, Redux state management, and ImageKit for media handling.",
@@ -103,6 +85,8 @@ const Projects = () => {
               <div className="flex gap-3 mt-5">
                 <a
                   href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-3 py-1 text-sm bg-blue-600 rounded-md hover:bg-blue-700 transition"
                 >
                   Live Demo
@@ -110,6 +94,8 @@ const Projects = () => {
 
                 <a
                   href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-3 py-1 text-sm border border-gray-600 rounded-md hover:bg-white hover:text-black transition"
                 >
                   GitHub

@@ -7,18 +7,6 @@ const About = () => {
       id="about"
       className="min-h-screen flex flex-col md:flex-row items-center justify-around gap-16 px-6 md:px-20 bg-[#020617] text-white"
     >
-      {/* LEFT SIDE - IMAGE */}
-      <div className="flex justify-center">
-        <div className="w-80 h-80 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg shadow-blue-500/30">
-          <img
-            src={myProfile}
-            alt="Profile"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
-
-      {/* RIGHT SIDE - CONTENT */}
       <div className="max-w-2xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           About Me

@@ -44,7 +44,8 @@ const Hero = () => {
         {/* download resume */}
         <div className="flex flex-wrap gap-4 mt-6">
           <a
-            href="/resume.pdf"
+            href="/Chetana_Sen.pdf"
+            download="Chetana_Sen_Resume.pdf"
             className="px-5 py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition"
           >
             Download Resume
@@ -60,9 +61,17 @@ const Hero = () => {
 
         {/* social contact  */}
         <div className="flex flex-wrap gap-6 mt-6 text-gray-400">
-          <a href="https://github.com/chetana-sen369"><FaGithub size={30}/></a>
-          <a href="https://www.linkedin.com/in/chetana-sen-2666a325b"><CiLinkedin size={30}/></a>
-          <a href="mailto:chetanasen369@gmail.com"><MdOutlineEmail size={30} /></a>
+          <a href="https://github.com/chetana-sen369"
+          target="_blank"
+          rel="noopener noreferrer"><FaGithub size={30}/></a>
+          <a href="https://www.linkedin.com/in/chetana-sen-2666a325b"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><CiLinkedin size={30}/></a>
+          <a href="mailto:chetanasen369@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><MdOutlineEmail size={30} /></a>
         </div>
       </div>
     </section>
